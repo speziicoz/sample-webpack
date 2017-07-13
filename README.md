@@ -12,7 +12,7 @@
 ### 1. Issue with NODE_ENV on PC
 If you are on pc you will need to type the word `SET` before the NODE_ENV in package.json.
 
-`"prod": "npm run clean && SET NODE_ENV=production webpack -p"`
+`"prod": "npm run clean && webpack -p"`
 
 ### 2. Use cross-env for MAC/PC
 If you want to set NODE_ENV for both Mac and PC you can use `cross-env` like this:

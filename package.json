@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",
-    "prod": "npm run clean && webpack -p --profile",
+    "prod": "npm run clean && webpack -p",
     "clean": "rimraf ./dist/*"
   },
   "author": "Champ N. Jaikaew",
