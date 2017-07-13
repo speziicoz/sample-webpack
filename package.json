@@ -1,0 +1,28 @@
+{
+  "name": "universal-javascript",
+  "version": "1.0.0",
+  "description": "a universally-rendered Redux application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "prod": "npm run clean && cross-env NODE_ENV=production webpack -p --profile --json > analyse.json",
+    "clean": "rimraf ./dist/*",
+    "start": "node src/server"
+  },
+  "author": "Champ N. Jaikaew",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/speziicoz/universal-javascript.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.2",
+    "html-webpack-plugin": "^2.28.0",
+    "rimraf": "^2.6.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {}
+}
