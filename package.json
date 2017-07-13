@@ -1,28 +1,27 @@
 {
-  "name": "universal-javascript",
+  "name": "sample-webpack",
   "version": "1.0.0",
-  "description": "a universally-rendered Redux application",
+  "description": "Sample Webpack",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",
-    "prod": "npm run clean && cross-env NODE_ENV=production webpack -p --profile --json > analyse.json",
-    "clean": "rimraf ./dist/*",
-    "start": "node src/server"
+    "prod": "npm run clean && webpack -p --profile",
+    "clean": "rimraf ./dist/*"
   },
   "author": "Champ N. Jaikaew",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/speziicoz/universal-javascript.git"
+    "url": "https://github.com/speziicoz/sample-webpack.git"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
-    "babel-loader": "^7.0.0",
-    "babel-preset-env": "^1.5.2",
-    "html-webpack-plugin": "^2.28.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "html-webpack-plugin": "^2.29.0",
     "rimraf": "^2.6.1",
     "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.4.5"
+    "webpack-dev-server": "^2.5.1"
   },
   "dependencies": {}
 }

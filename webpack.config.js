@@ -24,6 +24,14 @@ module.exports = {
     resolve: {
         modules: ["src", "node_modules"]
     },
+    devServer: {
+        contentBase: path.join(__dirname, "dist"),
+        compress: true,
+        stats: "errors-only",
+        open: true,
+        port: "3000",
+        openPage: ""
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, "src/views/index.html")

@@ -1,6 +1,4 @@
-
-## Preface
-The term Universal simply means the ability to run the same code on the server, browsers, mobile devices and any other platform. [Universal Javascript](https://medium.com/@mjackson/universal-javascript-4761051b7ae9) is a term people are leaning towards these days. A lot of developers still call it Isomorphic JavaScript.
+# Sample Webpack
 
 ## How to use the files?
 
