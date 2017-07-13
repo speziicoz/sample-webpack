@@ -1,5 +1,9 @@
 # Sample Webpack
 
+- [x] webpack
+- [x] webpack-dev-server
+- [x] html-webpack-plugin
+
 ## How to use the files?
 
 1. Clone this repo
